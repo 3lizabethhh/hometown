@@ -1,0 +1,68 @@
+body{
+    background-color: yellow;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h4{
+       font-family: 'Viga', sans-serif;
+}
+
+h1{
+
+    font-family: 'Trade Winds',serif;
+    background: black;
+    color: white;
+}
+#about-text{
+   text-align: left; 
+    text-indent: 50px;
+}
+#cuisine-text{
+   text-align: left; 
+}
+#celebrity-text{
+   text-align: left; 
+}
+#reference-text{
+text-align: left;
+}
+#BackToTop{
+  position:fixed;
+  background:yellow;
+  bottom:5px;
+}
+
+#dvdThumbnail {
+  width: 500px;
+  height: 285px;
+  transition: width 4s, height 4s;
+}
+
+#dvdThumbnail:hover {
+  width: 550px;
+  height: 315px;
+}
+
+
+#tumbleweed{
+float:left;
+margin-left: 0px;
+animation: tumbling 20s infinite linear alternate,rotate 20s infinite linear alternate ;
+
+}
+
+@keyframes tumbling {
+ 0% { margin-left:0px; }
+ 100% { margin-left:1050px; }
+}
+
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
